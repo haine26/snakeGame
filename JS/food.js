@@ -1,7 +1,7 @@
 class Food {
   constructor() {
     this.newFood();
-    this.img = loadImage("../img/chick.png");
+    this.img = loadImage("img/chick.png");
   }
   newFood() {
     this.x = Math.floor(random(width));

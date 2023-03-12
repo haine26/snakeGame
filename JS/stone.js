@@ -1,7 +1,7 @@
 class Stone {
   constructor() {
     this.newStone();
-    this.img = loadImage("../img/stones.png");
+    this.img = loadImage("img/stones.png");
   }
   newStone() {
     this.x = Math.floor(random(width));
